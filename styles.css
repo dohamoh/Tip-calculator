@@ -1,0 +1,77 @@
+body {
+  background-color: #c5e4e7 !important;
+  font-family: 'Space Mono', monospace !important;
+  padding-top: 7rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  color: #00494d !important;
+  font-weight: 500;
+}
+
+.main {
+  border-radius: 30px;
+}
+
+.main .sec1 .inputb {
+  background: url(./images/icon-person.svg) no-repeat scroll 10px;
+  padding-left: 30px;
+  direction: rtl;
+}
+
+.main .sec1 .inputa {
+  background: url(./images/icon-dollar.svg) no-repeat scroll 10px;
+  padding-left: 30px;
+  direction: rtl;
+}
+
+.main .sec1 .tip2 button {
+  font-size: 20px !important;
+  background-color: #00494d;
+}
+
+.main .sec1 .tip2 button:hover {
+  background-color: #26c0ab !important;
+  color: black !important;
+}
+
+.main .sec1 .tip2 input {
+  color: #00494d;
+  direction: rtl;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .sec1 .tip2 input:hover {
+  border: 3px solid #35c0ae !important;
+}
+
+.main .sec2 {
+  background-color: #00494d !important;
+  border-radius: 15px;
+}
+
+.main .sec2 .sec2a span {
+  color: #7f9c9f;
+}
+
+.main .sec2 .sec2a h1 {
+  color: #26c0ab;
+  font-weight: 600;
+}
+
+.main .sec2 button {
+  background-color: #26c0ab;
+  width: 90% !important;
+}
+
+.main .sec2 button:hover {
+  background-color: #c5e4e7 !important;
+}
+/*# sourceMappingURL=styles.css.map */
